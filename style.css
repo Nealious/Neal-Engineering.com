@@ -128,7 +128,11 @@ section{
     min-height: fit-content;
 }
 
-.section-container{display: flex;}
+.section-container{
+    display: flex;
+    gap: 4rem;
+    height: 80%;
+}
 
 /* Profile section styling. */
 #profile {display: flex;
@@ -209,6 +213,41 @@ margin-left: 8vw;
     position: relative;
 }
 
-#about-containers{
+.about-containers{
+    display: flex;
     gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+/* Experience Section Styling */
+
+#experience {
+    position: relative;
 }
