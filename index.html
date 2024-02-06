@@ -21,6 +21,7 @@
         </div>
     </nav>
 
+
     <!-- Mobile Navigation -->
     <nav id="hamburger-nav">
         <div class="logo">Neal's Portfolio</div>
@@ -39,6 +40,7 @@
         </div>
     </nav>
 
+
     <!-- Profile Section -->
     <section id="profile">
         <div class="section__pic-container">
@@ -53,12 +55,202 @@
                 <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">Download CV</button>
             </div>
             <div id="socials-container">
-                <img src="./assets/Linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/'">
-                <img src="./assets/Github.png" alt="My Github Page" class="icon" onclick="location.href='https://github.com/Nealious'">
+                <img src="./assets/Linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/'" style="cursor:pointer">
+                <img src="./assets/Github.png" alt="My Github Page" class="icon" onclick="location.href='https://github.com/Nealious'" style="cursor:pointer">
 
             </div>
         </div>
     </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/About-section-image.png" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/Experience-logo.png" alt="Experience icon" class="icon" style="scale: 80%;"/>
+                        <h3>Experience</h3>
+                        <p>2+ years of <br/> industry experience</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/Education-logo.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Biomedical Engineering <br/> Specialization in Systems and Signals</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi voluptas cum ullam hic, a velit nobis ipsam necessitatibus ad beatae sit nihil eveniet libero veritatis eligendi harum, dolores laborum asperiores.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/Arrow-icon.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>Matlab</h3>
+                                <p>4+ years of experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>6+ years of experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>R & R-Studio</h3>
+                                <p>2+ years of experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>c++ & c#</h3>
+                                <p>3+ years of experience</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Engineering Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>Solidworks</h3>
+                                <p>5+ years of experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>Fusion 360</h3>
+                                <p>3+ years of experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>PCB fabrication</h3>
+                                <p>1 year of experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Checkmark.png" alt="Checkmark Icon" class="icon" style="scale: 80%;"/>
+                            <div>
+                                <h3>QMS (iso-9001)</h3>
+                                <p>1 year of experience </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/Arrow-icon.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/..." alt="Project 1" class="project-img"/>
+                </div>
+
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/..." alt="Project 2" class="project-img"/>
+                </div>
+
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/..." alt="Project 3" class="project-img"/>
+                </div>
+
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/Arrow-icon.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/Email-icon.png" alt="Email Icon" class="icon contact-icon" style="scale: 80%;"/>
+                <p><a href="mailto:nealelharidy@icloud.com">Nealelharidy@icloud.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/Linkedin.png" alt="Linkedin Icon" class="icon contact-icon" style="scale: 80%;"/>
+                <p><a href="https://www.linkedin.com">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#top">Back to Top</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Neal Elharidy. All Rights Reserved. </p>
+    </footer>
+
+
     <script src="script.js"></script>
 </body>
 </html>
