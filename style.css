@@ -229,6 +229,7 @@ margin-left: 8vw;
 
 .about-pic {
     border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid ;
 }
 
 .arrow{
