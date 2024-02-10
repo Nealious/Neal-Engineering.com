@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neal Elharidy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html#top">Neal's Portfolio</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="./index.html#about">About</a></li>
+                <li><a href="./index.html#experience">Experience</a></li>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Mobile Navigation -->
+    <nav id="hamburger-nav">
+        <div class="logo"><a href="index.html#top">Neal's Portfolio</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="./index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="./index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="./index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="about">
+        <h1 class="title">Adventure Into The World Of Photonics</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/phonics_microscope.jpeg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        In 2023, I enrolled in Professor Lukas Chrostowski's Introduction to Silicon Photonics course at UBC. Although not directly relevant to the field of biomedicine, I found myself captivated by the prospect of designing my own Photonic chip. <br> </br> As traditional CMOS chips approach their physical and technological limitations in terms of both miniaturization and power efficiency, I recognized the importance of staying ahead of the curve in the realm of computing. This motivated me to explore the promising future of photonics and its potential impact on advancing technology.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-container">
+            COMING SOON 🚧
+            
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/Email-icon.png" alt="Email Icon" class="icon contact-icon" style="scale: 80%;"/>
+                <p><a href="mailto:nealelharidy@icloud.com">Nealelharidy@icloud.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/Linkedin.png" alt="Linkedin Icon" class="icon contact-icon" style="scale: 80%;"/>
+                <p><a href="https://www.linkedin.com/in/nealious">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#top">Back to Top</a></li>
+                    <li><a href="./index.html#about">About</a></li>
+                    <li><a href="./index.html#experience">Experience</a></li>
+                    <li><a href="./index.html#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Neal Elharidy. All Rights Reserved. </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
