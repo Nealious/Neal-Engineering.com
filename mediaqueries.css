@@ -25,6 +25,7 @@
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
+        justify-content: center;
     }
     .about-container{margin-top: 0;}
     #projects  .experience-details-container { padding-inline: 20vw; flex-direction: auto;}
