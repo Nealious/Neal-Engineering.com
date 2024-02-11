@@ -16,7 +16,7 @@
 {
     #desktop-nav {display:none;}
     #hamburger-nav {display: flex;}
-    #experience, .experience-details-container {margin-top: 2rem; flex-direction: column;}
+    #experience, .experience-details-container {margin-top: 2rem; flex-direction: column; }
     #profile, .section-container{display: initial;}
     .arrow{display: none;}
     section, .section-container{height: fit-content;}
@@ -27,6 +27,8 @@
         margin: 0 auto 2rem;
     }
     .about-container{margin-top: 0;}
+    #projects  .experience-details-container { padding-inline: 20vw; flex-direction: auto;}
+    
 
 }
 
@@ -35,10 +37,8 @@
     #profile{height: 65vh; margin-bottom: 0;}
     article{font-size: 1rem;}
     footer nav{height: fit-content; margin-bottom: 2rem;}
-    .about-containers, .contact-info-upper-container, .btn-container{
-    flex-wrap: wrap;
-    }
-
+    .about-containers, .contact-info-upper-container, .btn-container{flex-wrap: wrap;}
+    #projects  .experience-details-container {padding: 0;}
     .contact-info-container{margin:0;}
     .contact-info-container p, .nav-links li a{font-size: 1rem;}
     .experience-sub-title{font-size: 1.25rem;}
