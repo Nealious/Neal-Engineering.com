@@ -212,6 +212,7 @@ height: 80vh;
 
 #about {
     position: relative;
+    height: fit-content;
 }
 
 .about-containers{
@@ -254,6 +255,7 @@ height: 80vh;
 
 #experience {
     position: relative;
+    height: fit-content;
 }
 
 .experience-sub-title {
