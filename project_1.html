@@ -70,21 +70,41 @@
         </div>
     </section>
 
-    <section id="project_details" style="position: relative;">
+    <section id="project_details" style="position: relative; height: fit-content;">
         <div class="project_details_container" style="display: flex; flex-direction: column;">
             <h2>Part 1: Designing the MZIs.</h2>
-            
             <div class="project_pic_body" style="justify-content: center; display: flex;">
                 <img src="./assets/photonic_chip_layout.png" class="project-img"/>
             </div>
-
             <div class="project_text_container">
                 My aim when designing my chip was to reduce the voltage required to induce a $\pi$ phase shift in the output ($V_\pi$), a figure commonly used to measure the efficiency of MZI modulators. I modeled 6 Mach-Zehnder Interferometers (MZIs) in KLayout, and tested their simulated efficiency in Lumerical Mode.
 
                 <br></br>
-                The 6 designs I made varied in two ways; the distance between the voltage rails, and the waveguides (d), and the length of waveguide traveling through the rails (L). These two are the main variables that can affect $V_\pi$ since $V_\pi \propto d/L$.
-
+                The 6 MZIs I designed varied in two main ways; the distance between the voltage rails, and the waveguides (d), and the length of waveguide traveling through the rails (L). These are the two main variables that can affect $V_\pi$ as $V_\pi \propto d/L$. These variations were selected to identify the relationship between the efficiency of MZIs and their dependence on different $d:L$ ratios. This analysis aims to determine the most effective $d:L$ ratio for maximizing efficiency within a confined surface area given standard lithography manufacturing restraints, and high cost of floorspace on photonic integrate circuits (PICs).
+                <br></br></br>
             </div>
+
+
+            <h2>Part 2: Manufacturing the PICs. </h2>
+            <div class="project_pic_body" style="display: flex; justify-content: center;">
+                <img src="./assets/plasma_etcher.jpeg" class="project-img" style="max-width: 40%; padding-bottom: 2%;"/>
+            </div>
+            <div class="project_text_container">
+                The PICs were manufactured in UBC's Brimacombe facility on 220nm wafer by a group of students including myself with supervision from our TA. The chips were first cleaved by hand, then patterned using Electron Beam Lithography. The chips were then plasma etched and underwent a second round of photolithography followed by two rounds of metal evaporation deposition. Finally the chips were coated with NLM's HLD electro-optical polymer.
+                <br></br></br>
+            </div>
+
+
+            <h2>Part 3: Testing the MZIs. </h2>
+            <div class="project_pic_body" style="display: flex; justify-content: center;">
+                <img src="./assets/photonics_testing.jpeg" class="project-img" style="max-width: 40%; padding-bottom: 2%;"/>
+            </div>
+            <div class="project_text_container">
+                The chips were tested using a laser photonic stage and fibre array system.
+                <br></br></br>
+               <p style="display: flex; justify-content: center; font-size: larger;"> 🚧 More Details Coming Soon 🚧</p>
+            </div>
+
 
         </div>
     </section>
