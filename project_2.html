@@ -60,36 +60,40 @@
                     <div class="details-container">
                         My introduction to MATLAB occurred during my engineering studies at UBC. While the curriculum covered basic applications of the software, I quickly recognized its potential for more sophisticated endeavors.
                         <br></br>
-                        One of my initial projects involved modeling a robotic arm, serving as a foundational exploration of MATLAB's capabilities. Beginning with a straightforward 2D multi-link arm manipulator, I gradually expanded the project into the realm of 3D, discovering new challenges and possibilities along the way. 
+                        One of my initial projects involved modeling a robotic arm. Beginning with a straightforward 2D multi-link arm manipulator, I gradually expanded the project into the realm of 3D, discovering new challenges and possibilities along the way. 
                     </div>
                 </div>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="location.href='https://github.com/Nealious/'">
+                    <button class="btn btn-color-2" onclick="location.href='https://github.com/Nealious/Manipulator_Sim.git'">
                             Github
                     </button>
                 </div>
             </div>
         </div>
     </section>
-    <p style="display: flex; justify-content: center; font-size: larger;"> 🚧 More Details Coming Soon 🚧</p>
+
+    
     <section id="project_details" style="position: relative; height: fit-content;">
         <div class="project_details_container" style="display: flex; flex-direction: column;">
-            <h2>Part 1: Lorem ipsum dolor sit </h2>
+            <h2>Part 1: Beginning in 2D </h2>
             <div class="project_pic_body" style="justify-content: center; display: flex;">
-                <img src="./assets/photonic_chip_layout.png" class="project-img"/>
+                <img src="./assets/Robotic_2D.gif" class="project-img" style="width: 25%;"/>
             </div>
             <div class="project_text_container">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, molestiae excepturi minus accusamus velit harum voluptate repudiandae. Enim porro, distinctio eligendi officia sunt doloribus expedita quia provident similique corrupti ut dolor adipisci eos maiores. Odio quidem impedit iure architecto vel magnam natus molestiae mollitia maxime quos reiciendis blanditiis ipsum possimus provident a, omnis deserunt molestias! Deserunt accusamus hic ad. Laudantium, corporis ut. Nam fugit provident a, sed deserunt, possimus doloribus nobis, cupiditate animi sit voluptas consequuntur quis facere laboriosam placeat. Sequi, obcaecati distinctio iure quibusdam harum quisquam in dolore veritatis a accusamus, est numquam iste sed natus! Eveniet, magni qui.
+               Starting with a 2D simulation that I had created for my BMEG 425 course, I wanted to adapt the manipulability ellipses and force ellipses to my 3D simulation. Another feature I wanted to adapt from my old code was the crash detection and correction when the manipulator interacts with the physical boundary imposed on it.
 
-                <br></br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eligendi maxime aliquam assumenda hic optio est fugit modi ducimus in quas velit dignissimos aliquid pariatur quasi quia temporibus perferendis suscipit repellat, harum dolor error! Temporibus non veritatis autem laudantium eveniet ea optio nemo animi dolore beatae, nobis aliquam obcaecati iure vero, quaerat eligendi voluptatibus dicta deserunt, nesciunt praesentium eum? Fuga nulla fugit nobis vitae magnam! Quo, corrupti impedit tempora velit saepe cum explicabo facilis nesciunt dolorum perspiciatis tenetur, quas repellat? Repellat quibusdam facere distinctio odit aspernatur? Dolorem eaque quisquam facilis est assumenda, temporibus asperiores itaque sunt earum cum natus odio?
+               <br></br>
+
+               A feature I added to the 3D manipulator that was not included in the 2D simulation was a smooth trajectory algorithm. I decided on implementing a cubic polynomial trajectory algorithm which can be found on the github repository. 
+
+               For simplicity, the algorithm doest involve angular jacobian calculations and that was instead handled by a simple orientation selection input from the user that controls the spherical joint connected to the end effector.
                 <br></br></br>
             </div>
 
 
-            <h2>Part 2: Lorem ipsum dolor sit  </h2>
+            <h2>Part 2: Trajectory Mapping and Correction</h2>
             <div class="project_pic_body" style="display: flex; justify-content: center;">
-                <img src="./assets/plasma_etcher.jpeg" class="project-img" style="max-width: 40%; padding-bottom: 2%;"/>
+                <img src="./assets/Robotic_Trajectory.PNG" class="project-img" style="max-width: 40%; padding-bottom: 2%;"/>
             </div>
             <div class="project_text_container">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur minus nam alias laborum maiores ad sequi cumque reprehenderit natus dolore, earum, laudantium at labore nulla maxime deserunt quidem optio. Tempora at doloribus dignissimos repellendus asperiores! Incidunt voluptatum atque aut. Modi, eaque nam quisquam possimus rerum nostrum. Sapiente optio sunt eligendi deserunt dolor tenetur maxime, voluptatibus nostrum a maiores est autem ipsam laborum numquam exercitationem ducimus similique reprehenderit cumque fugit? Magnam, deleniti facere dolores odit incidunt eaque illum cum quis culpa, recusandae accusantium! A cupiditate repudiandae aperiam libero fuga possimus labore beatae totam, excepturi eum praesentium error deserunt, ducimus nesciunt?
