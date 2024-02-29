@@ -92,10 +92,10 @@
                 <b>DC Fixed Pattern Noise Subtraction:</b>
                 Removing the DC component of the raw data we see the reduction of artifacts in the image and an increased SNR.This is done by subtracting the median values of both the real and imaginary components of data. As a result, background noise, detector offsets, and other low-frequency disturbances are effectively mitigated.
                 <br></br>
-                <b>Dispersion Estimation and Compensation</b>
+                <b>Dispersion Estimation and Compensation:</b>
                 The index of refraction in materials is frequency dependent meaning the velocity of light changes, leading to distortions in the signal throughout the optical path. An iterative process can be used to minimize the distortions by calculating spectral entropy, leading to clearer images.
                 <br></br>
-                <b>Hanning Windowing</b>
+                <b>Hanning Windowing:</b>
                 A hanning window is applied to the data in order to reduce spectral leakage. An ideal FFT requires an integer number of periods in the signal, but our data does not guarantee this, causing truncated waveforms to be transformed. This shows up in the FFT as high-frequency components not present in the original signal, also known as spectral leakage. Applying a window minimizes this effect by tapering the signal at the edges of the sampling window
                 <br></br></br>
             </div>
