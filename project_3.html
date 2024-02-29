@@ -74,9 +74,9 @@
     
     <section id="project_details" style="position: relative; height: fit-content;">
         <div class="project_details_container" style="display: flex; flex-direction: column;">
-            <h2>Part 1: Verifying Processing Using Reference B-Scan  </h2>
+            <h2><br>Part 1: Verifying Processing Using Reference B-Scan  </h2>
             <div class="project_pic_body" style="justify-content: center; display: flex;">
-                <img src="./assets/Reference_B_Scan.png" class="project-img" style="max-width:  50%; border-radius: 0%;"/>
+                <img src="./assets/Reference_B_Scan.png" class="project-img" style="max-width:  50%; padding-top: 2%; padding-bottom: 2%; border-radius: 0%;"/>
             </div>
             <div class="project_text_container">
                 First we prove the efficacy of the processing algorithm by performing the individual steps one by one and examining scan for changes at every step.
@@ -103,7 +103,7 @@
 
             <h2>Part 2: Volume Generation and Correction </h2>
             <div class="project_pic_body" style="display: flex; justify-content: center;">
-                <img src="./assets/OCT_Volume_Slice.png" class="project-img" style="max-width: 50%; padding-bottom: 2%; border-radius: 0%;"/>
+                <img src="./assets/OCT_Volume_Slice.png" class="project-img" style="max-width: 50%; padding-bottom: 2%; padding-top: 2%; border-radius: 0%;"/>
             </div>
             <div class="project_text_container">
                 Now that we have proven the efficacy of the processing we move on to volume generation. The code first generates the dispersion coefficients and then iteratively constructs the volume processing each slide. After generating the volume we have to correct for axial misalignment. First we perform global axial motion correction, then we perform global axial tilt correction. This combination of corrections generate a coherent and well aligned 3D volume of which en-face scans can be generated. This processing allows us to go from raw OCT data to usable, manipulable, and diagnosis ready retinal volume model.
@@ -113,7 +113,7 @@
 
             <h2>Part 3: Results and Examining Generated En-Face Data </h2>
             <div class="project_pic_body" style="display: flex; justify-content: center;">
-                <img src="./assets/OCT_EnFace.png" class="project-img" style="max-width: 50%; padding-bottom: 2%; border-radius: 0%;"/>
+                <img src="./assets/OCT_EnFace.png" class="project-img" style="max-width: 50%; padding-bottom: 2%; padding-top: 2%; border-radius: 0%;"/>
             </div>
             <div class="project_text_container">
                 Now that we have a manipulable, well aligned, and well processed volume, we can examine top down slices that run across the original B-Scan directions. This allows us to examine specific 2D planes of tissues which has proven to be invaluable to diagnoses for retinal ailments. As seen above we can isolate specific structures like the vasculature of the retina which could be critical in diagnosing microaneurysms. 
